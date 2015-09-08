@@ -1,14 +1,18 @@
 {
   "name": "es6-boilerplate",
   "version": "0.0.1",
-  "description": "A simple es6 boilerplate using a gulp build system.",
+  "description": "A minimal es6 boilerplate using gulp and browserify.",
   "author": "recursion",
   "license": "ISC",
   "dependencies": {
+    "browserify": "^11.0.1",
     "gulp": "^3.9.0",
     "require-dir": "^0.3.0"
   },
   "devDependencies": {
+    "babel-core": "^5.8.23",
+    "babelify": "^6.3.0",
+    "browserify": "^11.0.1",
     "del": "^1.2.0",
     "gulp-babel": "^5.2.0",
     "gulp-concat": "^2.6.0",
@@ -17,6 +21,9 @@
     "gulp-rename": "^1.2.2",
     "gulp-sass": "^2.0.4",
     "gulp-sourcemaps": "^1.5.2",
-    "jshint-stylish": "^2.0.1"
+    "jshint-stylish": "^2.0.1",
+    "vinyl-buffer": "^1.0.0",
+    "vinyl-source-stream": "^1.1.0",
+    "watchify": "^3.4.0"
   }
 }
